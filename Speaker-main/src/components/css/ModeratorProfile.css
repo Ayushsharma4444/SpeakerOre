@@ -1,0 +1,250 @@
+.mp-parent {
+  /* display: grid; */
+  /* grid-template-columns: 10fr 2fr; */
+  column-gap: 1.5rem;
+  margin: 2rem 3.5rem;
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 1rem;
+  padding: 3rem 1rem;
+}
+.mp-left .mp-upper {
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  column-gap: 1.5rem;
+}
+@media screen and (max-width: 650px) {
+  .mp-left .mp-upper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  } 
+}
+.mpl-left,
+.mpl-right {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 0;
+  height: fit-content;
+}
+.mpl-right {
+  padding-bottom: 0.7rem;
+}
+.cdrow .cdr-box {
+  background: rgba(196, 196, 196, 1);
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+}
+.cdrow {
+  padding: 1rem 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  column-gap: 10px;
+  cursor: pointer;
+}
+.cdrow :hover {
+  background: #eaf0f6;
+  background-clip: content-box;
+  cursor: pointer;
+  /* box-shadow: inset 1rem 0.8rem #ff7a59; */
+}
+.mpl-heading {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+}
+.mpl-heading p {
+  margin-right: 20px;
+  border-bottom: 2px solid #ffbf19;
+  padding-bottom: 0.5rem;
+  margin-right: 20px;
+  border-bottom: 2px solid #ffbf19;
+  padding-bottom: 0.5rem;
+  width: 200px;
+}
+.mpl-heading button {
+  background: none;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  margin-top: -3px;
+}
+.mpedit-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem 2.5rem;
+}
+@media screen and (max-width:420px){
+  .mpedit-section {
+    padding: 6px;
+  }
+}
+.mpedit-section .mpes-form {
+  padding: 0 0.5rem;
+}
+.mpes-form p {
+  margin-bottom: 0.5rem;
+}
+.mpes-input {
+  height: 2rem;
+  line-height: 2rem;
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 1.5rem 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.mpes-from_to h6 {
+  width: 40%;
+  margin-left: 1%;
+  font-weight: 500;
+}
+.mpes-from_to {
+  display: flex;
+}
+.mpes-date1 {
+  display: flex;
+  justify-content: center;
+  width: 81%;
+}
+.mpes-contact1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mpes-contact1 input {
+  display: flex;
+  margin-bottom: 1%;
+  align-self: flex-end;
+  margin-right: 5%;
+}
+.mpes-contact1 {
+  margin-bottom: 2%;
+  width: 85%;
+}
+.mpes-contact1 h6 {
+  font-weight: 400;
+  margin-left: 2%;
+  font-size: 12px;
+}
+.mpes-date1 input {
+  margin: 1%;
+}
+.mpes-profilepic {
+  margin: auto;
+  position: relative;
+}
+.mpes-profilepic img {
+  width: 15rem;
+  border-radius: 50%;
+  height: 174px;
+  width: 191px;
+  border-radius: 50%;
+}
+.images-new {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 0;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+}
+.mpesdp-change {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: -127px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  background: linear-gradient(
+    360deg,
+    rgba(219, 219, 219, 0.89) 27.57%,
+    rgba(219, 219, 219, 0) 50%
+  );
+  margin-left: -41px;
+}
+.mp-lower {
+  padding: 0 1rem;
+}
+.mp-lower .mpl-right .mpedit-section .mpes-form .mpes-input {
+  width: 80%;
+}
+.mp-lower .mpl-right .mpedit-section {
+  column-gap: 3rem;
+}
+.tag-div {
+  display: flex;
+  position: relative;
+}
+.tag-div button {
+  position: absolute;
+  right: 6.5rem;
+  top: 1rem;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+}
+.tag-div .mpes-input {
+  margin-bottom: 0;
+}
+.tags-parent {
+  position: relative;
+  list-style: none;
+  text-align: left;
+  line-height: initial;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  color: rgb(140, 140, 140);
+}
+.confirmation {
+  padding: 2rem 3rem;
+}
+.confirmation .con-upper {
+  display: flex;
+  align-items: center;
+}
+.conu-text {
+  display: flex;
+  align-items: center;
+}
+.conu-text1 {
+  display: flex;
+  align-items: center;
+}
+.conu-text button {
+  background: none;
+  border: none;
+}
+
+.conu-text1 :nth-child(2) {
+  margin-left: 1%;
+}
+.confirmation .con-upper .conu-text {
+  margin-left: 1rem;
+}
+.confirmation .con-upper .conu-text span {
+  font-size: smaller;
+  font-weight: 100;
+}
+.con-lower {
+  text-align: center;
+}
+.con-lower-btn {
+  outline: none;
+  border: none;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.active-tab {
+  background: rgb(255, 191, 25);
+}
+.active-tab .cdr-box {
+  background: rgb(88, 88, 88);
+}

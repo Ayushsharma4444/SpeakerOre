@@ -1,0 +1,155 @@
+.card-new {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+}
+button {
+  height: 35.06px;
+  border: 1px solid #ffbf19;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 48.06px;
+  background: #ffbf19;
+  border: 1px solid #ffbf19;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* margin-top: 80px; */
+  margin-left: 4px;
+}
+.card-new .div-1 {
+  width: 123px;
+  height: 99.47px;
+  background: rgba(255, 191, 25, 0.4);
+  border-radius: 5px;
+  padding: 14px;
+}
+.card-new .div-2 {
+  width: 123px;
+  height: 99.47px;
+  background: rgba(255, 191, 25, 0.4);
+  border-radius: 5px;
+  padding: 14px;
+}
+.back-btn {
+  float: left;
+  margin-left: 13px;
+}
+.card-new .div-3 {
+  width: 123px;
+  height: 99.47px;
+  background: rgba(255, 191, 25, 0.4);
+  border-radius: 5px;
+  padding: 14px;
+}
+.main-purchase {
+  text-align: center;
+  margin-top: 3px;
+  box-shadow: 0px 4px 8px rgb(171 171 171);
+  border-radius: 15px;
+  padding: 27px;
+}
+.speaker img {
+  width: 100%;
+  background: rgba(52, 52, 52, 0.65);
+}
+.speaker {
+  position: relative;
+}
+.speaker .btn {
+  outline: none;
+  border: none;
+  padding: 1rem 3.5rem;
+  background: #ffbf19;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: large;
+  line-height: 14px;
+  margin-bottom: 1rem;
+}
+.speaker .btn:hover {
+  font-size: medium;
+  transition: ease-in-out 0.25s;
+  box-shadow: 0 0 20px rgba(250, 250, 250, 0.85);
+  padding: 0.8rem 1.5rem;
+}
+.fp-text {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  text-align: center;
+}
+.one {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  margin-bottom: 1rem;
+}
+.two {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+@media screen and (max-width:420px){
+  .two {
+    font-size: 11px;
+  }
+}
+.fp-addevent {
+  padding: 2rem 3rem;
+  position: relative;
+}
+.fp-addevent .desc {
+  text-transform: none;
+  color: grey;
+  margin-bottom: 0;
+}
+.fpae-heading {
+  font-size: 3rem;
+  font-weight: 100;
+  color: rgba(154, 150, 150, 1);
+}
+.fp-addevent .fp-text {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(52, 52, 52, 0.65);
+  padding: 30% 0;
+  text-align: center;
+}
+.fp-addevent .fpae-imgtext {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  position: relative;
+  bottom: 140px;
+}
+@media screen and (max-width: 650px) {
+  .fp-addevent .fpae-imgtext {
+    margin-top: 150px;
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .fp-addevent .fpae-imgtext {
+    font-size: 17px;
+    margin-top: 100px;  }
+}
+.fp-addevent .fp-text .two {
+  margin-bottom: 1rem;
+  position: relative;
+  bottom: 140px;
+}
+.box-count {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+}

@@ -1,0 +1,164 @@
+.about {
+  padding: 2rem;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.heading1 {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(2, 46%);
+  gap: 10%;
+}
+/* .cards-section .card:nth-child(2) {
+  margin-top: 10rem;
+} */
+.card .fp-cardtext {
+  padding: 0;
+}
+.fp-cardtext > h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.num {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 75px;
+  margin-top: 80px;
+  color: #ffbf19;
+}
+.desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 21px;
+
+  color: #9a9696;
+}
+.image {
+  width: 100%;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+.image1 {
+  width: 45%;
+  background: #f4f4f4;
+  border-radius: 100px;
+}
+.des2 {
+  position: absolute;
+  width: 136px;
+  height: 16px;
+  left: 1104.37px;
+  top: 1090.34px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #000000;
+}
+
+.num3 {
+  position: absolute;
+  width: 71px;
+  height: 75px;
+  left: 115.43px;
+  top: 1435.97px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #ffbf19;
+}
+.desc3 {
+  position: absolute;
+  width: 531.09px;
+  height: 27.04px;
+  left: 115.43px;
+  top: 1550.97px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #9a9696;
+}
+.image3 {
+  position: absolute;
+  width: 590.51px;
+  height: 446.23px;
+  left: 56.01px;
+  top: 1601.97px;
+
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+.num4 {
+  position: absolute;
+  width: 71px;
+  height: 75px;
+  left: 1186.02px;
+  top: 1644.66px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #ffbf19;
+}
+.desc4 {
+  position: absolute;
+  width: 332px;
+  height: 21px;
+  left: 925.02px;
+  top: 1758.58px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #9a9696;
+}
+.image4 {
+  position: absolute;
+  width: 590.51px;
+  height: 446.23px;
+  left: 725.51px;
+  top: 1803.28px;
+
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+*{
+  font-family: 'Montserrat','sans-serif';
+}

@@ -1,0 +1,15 @@
+.main1 {
+  justify-content: center;
+  text-align: justify;
+}
+.main-heading {
+  display: flex;
+  justify-content: center;
+}
+.main-questions {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.main-questions p {
+  /* margin-top: 1fr;/ */
+}
